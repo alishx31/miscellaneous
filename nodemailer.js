@@ -8,8 +8,8 @@ exports.sendmail = ({email,token})=>{
         port: 587,
         secure: false, // true for 465, false for other ports
         auth: {
-            user: 'alexander.gm@touchwa.re', // generated ethereal user
-            pass: '!qwertyuiop980' // generated ethereal password
+            user: '', // generated ethereal user
+            pass: '' // generated ethereal password
         }
     });
 
